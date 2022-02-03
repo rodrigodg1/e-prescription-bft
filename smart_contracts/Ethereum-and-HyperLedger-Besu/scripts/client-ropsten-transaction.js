@@ -9,7 +9,6 @@ web3.eth.defaultAccount = account1;
 
 const privateKey1 = Buffer.from('<paste your private key>', 'hex');
 
-//const abi = [{"constant":false,"inputs":[{"name":"_greeting","type":"string"}],"name":"greet","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"getGreeting","outputs":[{"name":"","type":"string"}],"payable":false,"stateMutability":"view","type":"function"}];
 
 const abi = [
   {
