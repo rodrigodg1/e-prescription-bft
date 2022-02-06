@@ -1,12 +1,11 @@
 ## Basic setup
 
  Ubuntu 20.04.3 LTS
+ Intel Core i7-10510U @ 4x 2,304GHz
  Testnet used: [cliffnet](https://github.com/CosmWasm/testnets)
   
 
 ## Inside Prescription-Contract directory
-
-    cd Prescription-Contract/
 
 ### COMPILE THE CONTRACT
 
@@ -105,7 +104,7 @@ echo $INIT
 ```
 **Instantiate:**
 
-    wasmd tx wasm instantiate $CODE_ID "$INIT" --from wallet --label "preion contract" $TXFLAG --no-admin -y
+    wasmd tx wasm instantiate $CODE_ID "$INIT" --from wallet --label "prescription contract" $TXFLAG --no-admin -y
 
 
 ### CHECK THE PRESCRIPTION CONTRACT INSTANCES

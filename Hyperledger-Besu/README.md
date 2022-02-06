@@ -1,4 +1,4 @@
-# e-prescription-bft
+# e-prescription-IBFT2
 
   
   
@@ -6,14 +6,13 @@
 
  to execute smart contracts methods in Hyperledger Besu network:
 
-    cd smart_contracts/Ethereum-and-HyperLedger-Besu/
     npm install
 
 **Client Code**
 
-    cd smart_contracts/Ethereum-and-HyperLedger-Besu/scripts/
-Edit: `client-besu-transaction.js` or `client-ropsten-transaction.js`
-  
+    cd scripts/
+
+Edit: `client-besu-transaction.js`
 
 1. Insert the RPC (*check your testnet address*);
 
@@ -37,9 +36,6 @@ To automate transactions, run the scripts (inside scripts directory):
 
     chmod +x ./auto-besu-single-client.sh
 
-**Single Client Bash:**
-
-    chmod +x ./auto-ropsten-single-client.sh
 
 **Run:**
 
@@ -49,13 +45,7 @@ or
 
     ./auto-besu-single-client.sh
 
-or
-
-    ./auto-ropsten-single-client.sh
 
 It is possible to run the client directly:
-
-    node client-ropsten-transaction.js
-or
 
     node client-besu-transaction.js
