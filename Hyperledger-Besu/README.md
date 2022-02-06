@@ -1,5 +1,11 @@
 # e-prescription-IBFT2
 
+
+## Basic setup
+
+ Ubuntu 20.04.3 LTS
+ 
+ 8GB - Intel Core i7-10510U @ 4x 2,304GHz
   
   
 **Installation**

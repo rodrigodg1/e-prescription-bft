@@ -1,9 +1,10 @@
 ## Basic setup
 
  Ubuntu 20.04.3 LTS
-
- Intel Core i7-10510U @ 4x 2,304GHz
  
+ 8GB - Intel Core i7-10510U @ 4x 2,304GHz
+  
+
  Testnet used: [cliffnet](https://github.com/CosmWasm/testnets)
   
 
