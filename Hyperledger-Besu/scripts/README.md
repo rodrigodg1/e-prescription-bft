@@ -5,7 +5,7 @@
 
 
 
-First, configure the network information on the client:
+First, configure the network information in the client:
 `client-besu-transaction.js`
 
 To send only one transaction:

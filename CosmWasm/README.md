@@ -1,12 +1,17 @@
 ## Basic setup
 
  Ubuntu 20.04.3 LTS
+
  Intel Core i7-10510U @ 4x 2,304GHz
+ 
  Testnet used: [cliffnet](https://github.com/CosmWasm/testnets)
   
 
 ## Inside Prescription-Contract directory
 
+```console
+cd Prescription-Contract/
+```
 ### COMPILE THE CONTRACT
 
 ```console
