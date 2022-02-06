@@ -1,4 +1,6 @@
 
+  
+
 ## Scripts for evaluation
 
 
@@ -17,6 +19,11 @@ you can run the script to send transactions automatically:
 or run multiple terminals to send transactions:
 
     ./auto-besu-mult-clients.sh
+
+to analyse CPU usage and memory allocation by validator container:
+(check your container ID using `sudo docker ps`)
+
+    ./docker-cpu-usage.sh
 
 
 to query the block time:
